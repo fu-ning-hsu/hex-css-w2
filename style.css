@@ -1,3 +1,5 @@
+/* CSS reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,4 +50,94 @@ table {
 
 img {
     vertical-align: middle;
+}
+
+/* typography */
+
+body {
+	font-family: 'Bruno Ace SC', cursive;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.wrap {
+	width: 1296px;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: #fff;
+	padding: 12px 24px;
+	border-radius: 32px;
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+nav, 
+.header {
+	background-color: #000;
+}
+
+.navbar {
+	display: flex;
+}
+
+.navbar li {
+	width: 306px;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-img {
+	width: 636px;
+	height: 848px;
+}
+
+.header-subtitle,
+.intro-title {
+	color: #fff;
+	font-size: 64px;
+	line-height: 1.5;
+}
+
+.header-title {
+	font-size: 128px;
+	line-height: 1.5;
+	text-align: right;
+	color: #00FFA3;
+	letter-spacing: 0;
+
+}
+
+.header-content {
+	width: 636px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.header-content a {
+	display: inline-block;
+	align-self: flex-end;
+}
+
+.intro {
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+
+.intro-body {
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.intro-right {
+	justify-content: space-between;
 }
